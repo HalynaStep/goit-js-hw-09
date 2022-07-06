@@ -10,6 +10,7 @@ stopBtnEl.addEventListener('click', onStop);
 
 function onStart(event) {
     startBtnEl.disabled = event.target;
+    bodyEl.style.backgroundColor = getRandomHexColor();
     intervalId = setInterval(() => { bodyEl.style.backgroundColor = getRandomHexColor() }, 1000); 
 };
 
