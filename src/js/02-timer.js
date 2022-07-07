@@ -13,9 +13,6 @@ let targetDate = null;
 let timerId = null;
 let diffTime = null;
 
-
-
-
 const options = {
   enableTime: true,
   time_24hr: true,
